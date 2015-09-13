@@ -90,7 +90,7 @@ Open ```chapters/main.tex``` file and add the include for the new chapter
 ```latex
 % Chapters
 ...
-\include{chapters/mychapter}
+\input{chapters/mychapter.tex}
 ...
 ```
 
@@ -119,7 +119,7 @@ Now you have to include this new file in the main file (```appendix/main.tex```)
 % Appendix chapters entry point
 % Include the chapters below
 ...
-\include{appendix/mynewchapter}
+\input{appendix/mynewchapter.tex}
 ...
 ```
 ### Acronyms
